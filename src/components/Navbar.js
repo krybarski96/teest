@@ -2,8 +2,8 @@ import React from "react";
 
 const Navbar = () => {
     return (
-        <div>
-            <h1 className="w-full text-2xl font-bold uppercase p-5">React! Wieszx jak jest</h1>
+        <div className="bg-amber-200">
+            <h1 className="w-full text-2xl text-green-500 uppercase font-bold p-5">React!</h1>
         </div>
     )
 }
