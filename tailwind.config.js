@@ -2,6 +2,12 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}",],
   theme: {
+
+    fontFamily: {
+      sans: ['Poppins', 'sans-serif'],
+      serif: ['Merriweather', 'serif'],
+    },
+
     screens: {
       'sm': '640px',
       'md': '768px',
@@ -9,6 +15,7 @@ module.exports = {
       'xl': '1280px',
       '2xl': '1536px',
     },
+
     colors: {
       "main_blue": '#00F6ED',
       'second_mustard': '#FED766',
