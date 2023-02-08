@@ -3,9 +3,10 @@ import { AiOutlineAlignRight,AiOutlineClose } from "react-icons/ai";
 
 const Navbar = () => {
     // zmienne pod rozwijanie mobile menu
-    const [nav,setNav] = useState(false)
+    const [nav,setNav] = useState(true)
 
     const handleNav = () => {
+
         setNav(!nav)
     }
 
@@ -23,8 +24,8 @@ const Navbar = () => {
                 {!nav ? <AiOutlineClose size={20}/> :<AiOutlineAlignRight size={20}/>}
             </div>
             {/*Mobilemenu*/}
-            <div className={!nav ? 'fixed left-0 top-0 w-[60%] h-full border-r border-r-gray bg-black ease-in-out duration-500' : 'fixed left-[-100%]'} >
-                <h1 className="basis-1/4 text-2xl font-bold uppercase m-4 text-main_blue">React!</h1>
+            <div className={!nav ? 'fixed left-0 top-0 w-[60%] px-4 h-full border-r border-r-gray bg-black ease-in-out duration-500' : 'fixed left-[-100%]'} >
+                <h1 className="basis-1/4 text-2xl font-bold uppercase m-6 mt-8 text-main_blue">React!</h1>
                 <ul className="uppercase p-4">
                     <li className="p-4 border-b border-b-gray">Strona główna</li>
                     <li className="p-4 border-b border-b-gray">Portfolio</li>

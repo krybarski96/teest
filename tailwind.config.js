@@ -9,7 +9,7 @@ module.exports = {
     },
 
     screens: {
-      'sm': '640px',
+      'sm': '500px',
       'md': '768px',
       'lg': '1024px',
       'xl': '1280px',
@@ -22,7 +22,7 @@ module.exports = {
       'akcent': '#FAF33E',
       'black': '#070707',
       'white': '#f9f9f9',
-      'gray': '#5F7470',
+      'gray': '#5b5b5b',
     },
     extend: {},
   },
