@@ -17,12 +17,12 @@ module.exports = {
     },
 
     colors: {
-      "main_blue": '#00F6ED',
+      "main_blue": '#4CCFFC',
       'second_mustard': '#FED766',
       'akcent': '#FAF33E',
-      'black': '#070707',
-      'white': '#f9f9f9',
-      'gray': '#5b5b5b',
+      'black': '#202020',
+      'white': '#F5F5F5',
+      'gray': '#6c6c6c',
     },
     extend: {},
   },
