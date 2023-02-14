@@ -1,11 +1,10 @@
 import React from 'react';
 import Typed from 'react-typed';
-import mountain from '../images/mountain.jpg'
 
 const Hero = () => {
     return (
 
-        <div className="text-white -mt-[96px] bg-cover bg-center bg-[url(https://images.pexels.com/photos/1022411/pexels-photo-1022411.jpeg)]">
+        <div className="text-white -mt-[96px] bg-mountain bg-black bg-blend-overlay">
             <div className="max-w-screen-xl w-full h-screen pt-[96px]  mx-auto text-center flex flex-col justify-center">
                 <p className="text-main_blue text-xl font-bold p-2">Witaj, jestem Kamil!</p>
                 <h1 className="sm:text-4xl md:text-4xl lg:text-4xl py-4 font-bold">Zajmuje się tworzeniem stron internetowych!</h1>

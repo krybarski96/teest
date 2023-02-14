@@ -24,7 +24,11 @@ module.exports = {
       'white': '#F5F5F5',
       'gray': '#6c6c6c',
     },
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'mountain': "url('./images/mountain.jpg')"
+      }
+    },
   },
   plugins: [],
 }
